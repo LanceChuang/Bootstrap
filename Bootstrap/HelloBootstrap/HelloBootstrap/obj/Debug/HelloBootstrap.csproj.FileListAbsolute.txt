@@ -1,0 +1,12 @@
+C:\Users\Lance\Dropbox\Bootstrap\HelloBootstrap\HelloBootstrap\bin\HelloBootstrap.dll.config
+C:\Users\Lance\Dropbox\Bootstrap\HelloBootstrap\HelloBootstrap\bin\HelloBootstrap.dll
+C:\Users\Lance\Dropbox\Bootstrap\HelloBootstrap\HelloBootstrap\bin\HelloBootstrap.pdb
+C:\Users\Lance\Dropbox\Bootstrap\HelloBootstrap\HelloBootstrap\obj\Debug\HelloBootstrap.csprojResolveAssemblyReference.cache
+C:\Users\Lance\Dropbox\Bootstrap\HelloBootstrap\HelloBootstrap\obj\Debug\HelloBootstrap.dll
+C:\Users\Lance\Dropbox\Bootstrap\HelloBootstrap\HelloBootstrap\obj\Debug\HelloBootstrap.pdb
+D:\Dropbox\Bootstrap\HelloBootstrap\HelloBootstrap\bin\HelloBootstrap.dll.config
+D:\Dropbox\Bootstrap\HelloBootstrap\HelloBootstrap\bin\HelloBootstrap.dll
+D:\Dropbox\Bootstrap\HelloBootstrap\HelloBootstrap\bin\HelloBootstrap.pdb
+D:\Dropbox\Bootstrap\HelloBootstrap\HelloBootstrap\obj\Debug\HelloBootstrap.csprojResolveAssemblyReference.cache
+D:\Dropbox\Bootstrap\HelloBootstrap\HelloBootstrap\obj\Debug\HelloBootstrap.dll
+D:\Dropbox\Bootstrap\HelloBootstrap\HelloBootstrap\obj\Debug\HelloBootstrap.pdb
