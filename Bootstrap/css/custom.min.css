@@ -1,77 +1,77 @@
 .jumbotron{padding-bottom:10px;}
  body 
- { 	padding-bottom: 10px;}
+ { 	padding-bottom       : 10px;}
  
 #logo
 {
-	max-width: 20rem;
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-    text-align: center;
+	max-width              : 20rem;
+    margin-left          : -1.5rem;
+    margin-right         : -1.5rem;
+    text-align           : center;
 }
 
-#imgg
+#mainImg
 {
-   max-width: 100%;
-    height:auto;  
+    max-width            : 100%;
+    height               :auto;  
+    padding-bottom       : 3rem;
+    display:block; margin:auto;
 }
 .col-xs-12
     {
-      padding:0;
+      padding            :0;
     }
 
-.container-fluid {
-    padding-top: 1rem;
-    max-width: 100%;
-    height: auto;
-    padding-right: 0px; 
-    padding-left: 0px; 
-  
+.container {
+    max-width            : 100%;
+    height               : auto;
+    padding: 1rem 0px 1rem 0px;
 }
 /*.bobo
 {
-    height:500px;
-    width:100%;
-    margin:0px;
-    /*padding-right:-5px;*/
-    background: url("http://i.imgur.com/7HtsNKd.jpg");
-    background-size: cover;
+    height               :500px;
+    width                :100%;
+    margin               :0px;
+    /*padding-right      :-5px;*/
+    background           : url("http://i.imgur.com/7HtsNKd.jpg");
+    background-size      : cover;
 }*/
 .banner_container {
-  max-width: 100%;
-  height:30%;
-  margin-left: 0;
-  margin-right: 0;
-  background-image: url("http://i.imgur.com/7HtsNKd.jpg");
-  background-size:cover;
+  max-width              : 100%;
+  height                 :30%;
+  margin-left            : 0;
+  margin-right           : 0;
+  background-image       : url("http://i.imgur.com/7HtsNKd.jpg");
+  background-size        :cover;
   
 }
 .logo_container {
-  text-align: center;
-  padding: 2rem 0;
+  text-align             : center;
+  padding                : 2rem 0;
 }
 .row
 {
-	margin-right: 0;
+	margin-right           : 0;
+  margin-left            : 0;
 }
 #image
 {
-  margin-top: 20px;
+  margin-top             : 20px;
 }
 #block
 {
-    margin:100%;
-    max-width: 100%;
+    margin               :100%;
+    max-width            : 100%;
     
-    background-color:#EEE;
-    margin: 0rem auto;
-    text-align: center;
-    float:left;
+    background-color     :#EEE;
+    margin               : 0rem auto;
+    text-align           : center;
+    float                :left;
 }
 #img1
 {
-  width: 100%;
-  height: auto;
+  width                  : 100%;
+  height                 : auto;
 }
 
 
