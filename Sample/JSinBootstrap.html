@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <title>JS in Bootstrap</title>
+</head>
+<body>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <!--fade provide animation-->
+            <div class="modal-content">
+                <!--important-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModal-label">Modal title</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form role="form" class="form-horizontal">
+
+                        <div class="form-group has-feedback">
+
+                            <label class="control-label col-md-3" for="email">Email:</label>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" id="email" placeholder="Enter email">
+                                <span class="glyphicon form-control-feedback"></span>
+                            </div>
+                        </div>
+                        <div class="form-group has-error has-feedback">
+                            <label class="control-label col-md-3" for="twitter">Twitter:</label>
+                            <div class="col-md-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon">@</span>
+                                    <input type="text" class="form-control" id="twitter" placeholder="Twitter">
+                                </div>
+                                <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" id="save">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!--Modal Container-->
+        <div class="row">
+            <button type="button" class="col-md-offset-3 col-md-6 btn btn-success" data-toggle="modal" data-target="#myModal">Modal Dialogue</button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script>
+    $(function () {
+        $('#save').click(function () {
+            var formValid = true;
+
+            //loop through every input control
+            $('input').each(function () {
+
+                //find the form group to set our success/error
+                var formGroup = $(this).parents('.form-group');
+
+                //find the glyphicon to show our check or X
+                var glyphicon = formGroup.find('glyphicon');
+
+                //use the HTML5 checkValidity function
+                if (this.checkValidity()) {
+                    //show green ,remove red 
+                    formGroup.addClass('has-success').removeClass('has-error');
+                    //show check , remove x
+                    glyphicon.addClass('glyphicon-ok').removeClass('glyphicon-remove');
+                } else {
+                    //show red ,remove green 
+                    formGroup.addClass('has-error').removeClass('has-success');
+                    glyphicon.addClass('glyphicon-remove').removeClass('glyphicon-ok');
+
+                    //mark form as invalid
+                    formValid = false;
+                }
+            });
+            if (formValid) {
+                //hide modal dialog
+                $('#myModal').modal('hide');
+                //show alert
+                $('#success-alert').removeClass('hidden');
+            }
+        })
+    })
+</script>
+</body>
+</html>

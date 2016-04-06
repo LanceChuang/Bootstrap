@@ -1,0 +1,56 @@
+
+body{ color: white;font-family: 微軟正黑體 ;}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#About{
+  background-color: #4FC3F7;
+  
+}
+#map{
+  background-color: #d09038;
+}
+#map_place{
+  background-color: #FF8F00;
+}
+#product{
+  background-color: #81C784;
+}
+#compare{
+  background-color: #BDBDBD;
+  display: block;
+}
+#contact{
+  background-color: #757575;
+}
+a{color:white;}
+#video{
+  background-color: #0097A7;
+}
+#footer{
+  font-size: 0.8rem;
+  background-color: #424242;
+  height:auto;
+  padding-bottom: 15px;
+  line-height:auto;
+}
+.container {
+    max-width            : 100%;
+    height               : auto;
+    padding: 0;
+}
+.row
+{
+  display: flex;
+	margin-right           : 0;
+  margin-left            : 0;
+}
+
+.container-fluid{
+    padding-right:0px;
+    padding-left:0px;
+}
